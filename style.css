@@ -1,0 +1,70 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center; 
+}
+
+h1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#283f7f;
+}
+
+.time-block{
+  width: fit-content;
+}
+
+.input-group-text{
+  width: 80px;
+}
+
+.hour-box {
+  color: #283f7f;
+  text-align: center;
+}
+
+
+textarea {
+  align-items: center;
+  background: transparent;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.box-content {
+  white-space: pre-wrap;
+  width:1100px;
+  border-color: #617dc8;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-color: #283f7f;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #62d07e;
+  color: white;
+  width:80px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.past {
+  background-color: rgb(186, 208, 242);
+  color: black;
+}
+
+.present {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.future {
+  background-color: #e1beec;
+  color: black;
+}
